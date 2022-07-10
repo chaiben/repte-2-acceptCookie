@@ -65,8 +65,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: hidden;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
