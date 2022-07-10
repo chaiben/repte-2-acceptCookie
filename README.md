@@ -10,7 +10,7 @@ Componente JS que crea un popup con la información sobre cookies
 
 ## Como utilizar
 
-Archivos ncesarios:
+Archivos necesarios:
 
 - `cookie-pop-up.js`
 - `scss/cookie-pop-up.scss`
@@ -22,7 +22,27 @@ Añadir el siguiente código al archivo que quiera que aparezca la información 
 <script src="./cookie-pop-up.js"></script>
 ```
 
-Caso quieras modificar el texto del popup, modifique el archivo `cookie-pop-up.js`.
+Caso quieras modificar los textos del popup o el link, basta utilizar los siguiente atributos.
+
+- mainText
+- description
+- buttonText
+- linkText
+- linkURL
+Ejemplo:
+```
+<cookie-pop-up
+    mainText="We use cookies"
+    description="This website uses cookies to better undestand your behavior on our website"
+    buttonText="Got it!"
+    linkText="More info"
+    linkURL="https://its.uiowa.edu/support/article/719"
+></cookie-pop-up>
+<script src="./cookie-pop-up.js"></script>
+```
+
+Resultado
+![Ejemplo 2](./assets/sample2.jpg)
 
 ## Articulos utilizados
 
@@ -31,7 +51,7 @@ Caso quieras modificar el texto del popup, modifique el archivo `cookie-pop-up.j
 1. [Como utilizar cookies en JavaScript](https://cybmeta.com/cookies-en-javascript)
 
 
-## Some metrics
+## Algunas metricas
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=chaiben_repte-2-acceptCookie&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=chaiben_repte-2-acceptCookie)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=chaiben_repte-2-acceptCookie&metric=bugs)](https://sonarcloud.io/summary/new_code?id=chaiben_repte-2-acceptCookie)
