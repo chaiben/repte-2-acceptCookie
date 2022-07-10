@@ -13,7 +13,7 @@ class CookiePopUp extends HTMLElement {
 
   connectedCallback(){
     if(!this.show)
-    return;
+      return;
 
     this.render();
 
