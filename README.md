@@ -42,6 +42,7 @@ Ejemplo:
 ```
 
 Resultado
+
 ![Ejemplo 2](./assets/sample2.jpg)
 
 ## Articulos utilizados
