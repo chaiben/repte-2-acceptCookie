@@ -1,0 +1,55 @@
+@import './def';
+
+#cookie-box--close{
+  position: absolute;
+  fill: $tertiary-color;
+  top: 1rem;
+  right: 1rem;
+  &:hover{
+    cursor: pointer;
+  }
+}
+#cookie-box{
+  position: relative;
+  border-radius: 1rem;
+  background-color: $background-cookie-box;
+  padding: 2rem 3rem;
+  text-align: center;
+  max-width: 16rem;
+  width: 90%;
+  h1 {
+    color: $primary-color;
+    font-size: 1.5rem;
+  }
+}
+.cookie-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    color: $secondary-color;
+    &:visited, &:hover{
+      color: $secondary-color;
+    }
+  }
+  button{
+    color: $font-color-contrast;
+    background-color: $secondary-color;
+    border: 0px;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.popup{
+  align-items: center;
+  background-color: $background-popup;
+  color: $font-color;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

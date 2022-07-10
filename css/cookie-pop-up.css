@@ -1,0 +1,74 @@
+#cookie-box--close {
+  position: absolute;
+  fill: #e7ccbe;
+  top: 1rem;
+  right: 1rem;
+}
+
+#cookie-box--close:hover {
+  cursor: pointer;
+}
+
+#cookie-box {
+  position: relative;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  text-align: center;
+  max-width: 16rem;
+  width: 90%;
+}
+
+#cookie-box h1 {
+  color: #9c552e;
+  font-size: 1.5rem;
+}
+
+.cookie-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cookie-menu a {
+  color: #d57e4f;
+}
+
+.cookie-menu a:visited, .cookie-menu a:hover {
+  color: #d57e4f;
+}
+
+.cookie-menu button {
+  color: #ffffff;
+  background-color: #d57e4f;
+  border: 0px;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.popup {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00000088;
+  color: #747474;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=cookie-pop-up.css.map */
