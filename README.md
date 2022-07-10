@@ -3,19 +3,28 @@
 
 ## Description
 
-La privadesa i la protecció de dades són conceptes molt importants dins del desenvolupament de programari front-end.
+Componente JS que crea un popup con la información sobre cookies
 
-Per això, aquest primer repte es basa en desenvolupar un component [1,2] amb HTML, CSS (o alguna llibreria) i Javascript Vanilla, que ens permet acceptar la política de galetes de la pàgina web on estem ingressant.
-
-
-## Objectius a implementar
-
-1. Maquetar la vista que es proposa a la imatge anterior (es poden canviar colors i estils de text).
-2. En clicar a Understood, Yum s'ha de guardar la galeta i desaparèixer el component [1,2], fins i tot si es fa refresh no torna a aparèixer.[3]
-3. En clicar a Learn more podeu afegir el link que vulgueu per exemple: https://support.mozilla.org/es/kb/Esborrar%20cookies
+![Ejemplo](./assets/sample.jpg)
 
 
-## Bibliografia
+## Como utilizar
+
+Archivos ncesarios:
+
+- `cookie-pop-up.js`
+- `scss/cookie-pop-up.scss`
+
+Añadir el siguiente código al archivo que quiera que aparezca la información sobre la cookie.
+
+```
+<cookie-pop-up></cookie-pop-up>
+<script src="./cookie-pop-up.js"></script>
+```
+
+Caso quieras modificar el texto del popup, modifique el archivo `cookie-pop-up.js`.
+
+## Articulos utilizados
 
 1. [Create Your First Web Component with Vanilla JavaScript](https://medium.com/tunaiku-tech/create-your-first-web-component-with-vanilla-javascript-af93cbf3a70f)
 1. [Web Components Using Vanilla JS](https://mellowdevs.medium.com/web-components-using-vanilla-js-f7af00834caa)
