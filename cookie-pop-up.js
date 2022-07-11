@@ -23,9 +23,6 @@ class CookiePopUp extends HTMLElement {
     if(!this.show)
       return;
 
-    console.log("mainText", this.getAttribute('mainText'));
-    
-
     this.mainText = this.getAttribute("mainText") ? this.getAttribute("mainText") : "Have a Cookie";
     this.description = this.getAttribute("description") ? this.getAttribute("description") : 
       "This website uses cookies to ensure you get the best experience on our website";
@@ -48,7 +45,7 @@ class CookiePopUp extends HTMLElement {
 
   saveCookie(){
     document.cookie="show=0";
-    this.shadow.innerHTML = "";
+    this.close();
   }
 
   render() {
